@@ -1,0 +1,74 @@
+body {font-family: Arial;}
+
+.app {
+  margin: 20px;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc !important;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tab-active {
+  display: block;
+}
+
+
+.row{width: 100%; display: flex;}
+.col1{width: 35%;}
+.col2{width: 65%;margin:20px 4%}
+.box{
+  border: 2px solid blueviolet; 
+  padding: 10px;
+  margin-bottom: 10px;
+}
+input[type='number']{
+width: 95px;}
+.cbtn{ background-color: azure; border: 1px solid gray;
+padding: 8px 20px; cursor: pointer;} 
+.cbtn:hover{ background-color:aquamarine;} 
+.btable, .btable > tr,.btable  td,.btable  th{
+    border:1px solid gray; border-collapse: 
+    collapse; padding: 10px;}
+.bg-blue > th{padding: 8px 12px;
+     background-color: rgb(142, 181, 255);}
+.del{cursor: pointer; color:black}
+.ltable{
+    background-color: rgb(240, 245, 255);}
+.ltable, .ltable > tr,.ltable  td,.ltable  th{
+     border:1px solid gray;
+ border-collapse: collapse; padding: 10px;}
+ .green{
+background-color: aquamarine;
+ }
