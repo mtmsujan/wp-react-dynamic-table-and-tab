@@ -1,7 +1,3 @@
-# The technology used in this plugin
-
-wp rest api, react, wordpress shortcode api
-
 ### Step 1
 
 Install the plugin to WordPress
@@ -18,3 +14,7 @@ run the command from terminal `npm start`
 ### Step 4
 
 To use the plugin on production after changing using npm start, the command `npm run build` has to be executed from terminal 
+
+## The technology used in this plugin
+
+`wp rest api`, `react js`, `wordpress shortcode api`
