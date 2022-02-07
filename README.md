@@ -1,3 +1,7 @@
+# The technology used in this plugin
+
+wp rest api, react, wordpress shortcode api
+
 ### Step 1
 
 Install the plugin to WordPress
