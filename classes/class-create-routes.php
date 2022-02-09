@@ -45,7 +45,8 @@ class WP_React_Tables_Rest_Route {
         if(is_user_logged_in()){
             global $wpdb;
             $table = $wpdb->prefix.'data_tables';
-            $user_count = $wpdb->get_var( "SELECT COUNT(*) FROM $table" );
+            $user_id = $req['user_id'];
+            $user_count = $wpdb->get_var( "SELECT COUNT(*) FROM $table WHERE user_id = $user_id" );
             
             $data = array('user_id' => $req['user_id'], 'persons' => $req['persons'], 'tabs' => $req['tabs'], 'tab_last_opened' => $req['tab_last_opened']);
             $format = array('%d','%s', '%s', '%s');
